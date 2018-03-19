@@ -1,0 +1,26 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Daniela's Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daniparraguez/Portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daniparraguez/Portfolio/issues"
+  },
+  "homepage": "https://github.com/daniparraguez/Portfolio#readme",
+  "dependencies": {
+    "animate.css": "^3.6.1",
+    "jquery": "^3.3.1",
+    "letteringjs": "^0.7.0",
+    "textillate": "^0.4.1",
+    "typed.js": "^2.0.6"
+  }
+}
