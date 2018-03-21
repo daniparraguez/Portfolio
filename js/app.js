@@ -1,5 +1,5 @@
 var typed = new Typed('span.element', {
- strings: ["'Front-End Developer';", "'Code Lover';"],
+ strings: ["Hi, I'm Daniela Parraguez...Front-End Developer", "Hi, I'm Daniela Parraguez...Tea Lover"],
   smartBackspace: true,
   typeSpeed: 30,
   loop: true,
@@ -11,4 +11,29 @@ window.sr = ScrollReveal({ reset: true });
 
 // Customizing a reveal set
 sr.reveal('.txtinicio', { duration: 2000 });
+sr.reveal('#main_area', { duration: 2000 });
 
+
+
+  jQuery(document).ready(function($) {
+ 
+        $('#myCarousel').carousel({
+                interval: 5000
+        });
+ 
+        $('#carousel-text').html($('#slide-content-0').html());
+ 
+        //Handles the carousel thumbnails
+       $('[id^=carousel-selector-]').click( function(){
+            var id = this.id.substr(this.id.lastIndexOf("-") + 1);
+            var id = parseInt(id);
+            $('#myCarousel').carousel(id);
+        });
+ 
+ 
+        // When the carousel slides, auto update the text
+        $('#myCarousel').on('slid.bs.carousel', function (e) {
+                 var id = $('.item.active').data('slide-number');
+                $('#carousel-text').html($('#slide-content-'+id).html());
+        });
+});
