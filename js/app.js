@@ -23,7 +23,7 @@ sr.reveal('.title', { duration: 2000 });
   jQuery(document).ready(function($) {
  
         $('#myCarousel').carousel({
-                interval: 5000
+                interval: 6000
         });
  
         $('#carousel-text').html($('#slide-content-0').html());
