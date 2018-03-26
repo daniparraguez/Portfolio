@@ -86,18 +86,17 @@ display: inline-flex;
 }﻿
 
 footer.nb-footer {
-height: 100vh; 
-padding-bottom: 2em;
-}
+height: 100vh;}
 
 footer.nb-footer .about {
 margin: 0 auto;
-margin-top: 40px;
+margin-top: 9em;
 max-width: 1170px;
-text-align: center; }
+text-align: center; 
+padding-bottom: 13em;}
 
 footer.nb-footer .about p {
-font-size: 1em;
+font-size: 2em;
 color: #999;
 margin-top: 30px; }
 
@@ -106,14 +105,13 @@ margin-top: 15px; }
 
 footer.nb-footer .about .social-media ul li a {
 display: inline-block;
-font-size: 1.5em;
+font-size: 2.5em;
 color: #008a84 ;
 border: 1px solid rgba(255, 255, 255, 0.3); }
 
 footer.nb-footer .about .social-media ul li a i:hover {
 
-font-size: 3em; 
-padding-bottom: 5em;}
+font-size: 3em; }
 
 .row.copyright {
 background-color: #008a84;
@@ -150,4 +148,13 @@ margin-top:20px;
 
 .padding{
   padding-top: 1.5em;
+}
+.icon{
+  font-size: 4em;
+  color:#008a84;
+}
+
+.icon:hover{
+  font-size: 5em;
+
 }
