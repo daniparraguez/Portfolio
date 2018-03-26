@@ -1,5 +1,5 @@
 var typed = new Typed('span.element', {
- strings: ["Hi, I'm Daniela Parraguez...Front-End Developer", "Hi, I'm Daniela Parraguez...Tea Lover"],
+ strings: ["Hi, I'm Daniela Parraguez...Front-End Developer", "Hi, I'm Daniela Parraguez...Physical Therapist", "Hi, I'm Daniela Parraguez...Tea Lover"],
   smartBackspace: true,
   typeSpeed: 30,
   loop: true,
@@ -11,7 +11,12 @@ window.sr = ScrollReveal({ reset: true });
 
 // Customizing a reveal set
 sr.reveal('.txtinicio', { duration: 2000 });
-sr.reveal('#main_area', { duration: 2000 });
+sr.reveal('.third', { duration: 2000 });
+sr.reveal('.second', { duration: 2000 });
+sr.reveal('.fourth', { duration: 2000 });
+sr.reveal('.title', { duration: 2000 });
+
+
 
 
 
