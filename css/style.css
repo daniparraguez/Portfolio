@@ -6,6 +6,7 @@ body{
 }
 .first,.second,.third,.fourth{
   height: 100vh;
+  margin-bottom: 1em;
 }
 #particles-js{
   width: 100%;
@@ -135,17 +136,28 @@ margin-top:20px;
 .title{
   font-weight: bolder;
   text-align: center;
-  margin-top: 1.5em;
+  margin-top: 0.7em;
 }
 
 .cover{
   background-size: cover;
   display: inline-flex;
 }
-.jumbotron h1{
+.falsejumbotron h1{
   font-size: 3em;
 }
 
+.falsejumbotron p{
+  font-size: 1.2em;
+
+}
+
+.falsejumbotron{
+  height: 100vh;
+  border-radius: 5%;
+  background-color: #e8e8e8;
+  padding: 5%;
+}
 .padding{
   padding-top: 1.5em;
 }
@@ -157,4 +169,12 @@ margin-top:20px;
 .icon:hover{
   font-size: 5em;
 
+}
+
+#skills-row{
+  padding-top: 4em;
+}
+
+#mywork{
+  margin-top: 6em;
 }
