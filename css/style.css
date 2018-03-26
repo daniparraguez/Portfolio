@@ -6,7 +6,7 @@ body{
 }
 .first,.second,.third,.fourth{
   height: 100vh;
-  margin-bottom: 11em;
+  margin-bottom: 12em;
 }
 #particles-js{
   width: 100%;
