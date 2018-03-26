@@ -20,7 +20,7 @@ body{
   background-size: cover;
   color: #e7e7e7;
   margin-top: 3.6em;
-  margin-bottom: 1em;
+
 
 }
 
@@ -92,7 +92,7 @@ margin: 0 auto;
 margin-top: 10em;
 
 text-align: center; 
-padding-bottom: 8em;}
+padding-bottom: 12em;}
 
 footer.nb-footer .about p {
 font-size: 2em;
