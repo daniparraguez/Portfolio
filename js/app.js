@@ -7,7 +7,7 @@ var typed = new Typed('span.element', {
 });
 
 // Changing the defaults
-window.sr = ScrollReveal({ reset: true });
+window.sr = ScrollReveal({ reset: true , viewOffset: { top: 50, right: 0, bottom: 0, left: 0 },});
 
 // Customizing a reveal set
 sr.reveal('.txtinicio', { duration: 2000 });
@@ -15,6 +15,7 @@ sr.reveal('.third', { duration: 2000 });
 sr.reveal('.second', { duration: 2000 });
 sr.reveal('.fourth', { duration: 2000 });
 sr.reveal('.title', { duration: 2000 });
+sr.reveal('.img-circle', { duration: 2000 });
 
 
 
@@ -42,3 +43,4 @@ sr.reveal('.title', { duration: 2000 });
                 $('#carousel-text').html($('#slide-content-'+id).html());
         });
 });
+

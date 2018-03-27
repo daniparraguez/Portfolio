@@ -33,10 +33,11 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#mywork">My Work</a></li>
-        <li><a href="#copyright">Contact</a></li>
+        <li><a class="element1" href="#">Home</a></li>
+        <li><a href="#" onclick="$('#about').animatescroll({scrollSpeed:2000,easing:'easeInOutQuart'});">About</a></li>
+        <li><a href="#" onclick="$('#mywork').animatescroll({scrollSpeed:2000,easing:'easeInOutQuart', padding:50});">My Work</a></li>
+        <li><a href="#" onclick="$('#copyright').animatescroll({scrollSpeed:2000,easing:'easeInOutQuart'});">Contact</a></li>
+
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
@@ -129,7 +130,7 @@
 
           <div id="slide-content-3">
             <h2>Easy-Vreco</h2>
-            <p>Geolocation project, draws a route between two places using google maps's API</p>
+            <p>Geolocation project, draws a route using google maps's API</p>
             <medium> <a class="link-white" href="https://github.com/daniparraguez/Easy-vreco" target="_blank">GitHub <i class="fa fa-github fa-3x" aria-hidden="true"></i></a> <a class="link-white" href="https://daniparraguez.github.io/Easy-vreco/" target="_blank">Demo <i class="fa fa-play-circle fa-3x" aria-hidden="true"></i></a>.</medium>
           </div>
         </div>
@@ -258,6 +259,7 @@
 <!-- Particles Script -->
     <script src='js/particles.min.js'></script>
     <script src='js/particles_setting.js'></script>
+    <script src='js/animatescroll.min.js'></script>
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <script type="text/javascript" src="js/app.js"></script>
